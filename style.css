@@ -84,7 +84,7 @@ p {
     background-color: wheat;
     border-radius: 20px;
     width: 60%;
-    margin-left: 200px;
+    margin-left: 20px;
     text-align: center;
     border: none;
     overflow: scroll;
@@ -127,7 +127,7 @@ p {
     color: black;
 }
 
-@media (max-width: 500px) {
+@media (min-width: 500px) {
     body {
         color: aqua;
     }
@@ -137,7 +137,7 @@ p {
         color: blue;
     }
 }
-@media (orientation: landscape), (max-width: 500px) {
+@media (orientation: landscape), (min-width: 500px) {
     .table {
         background-color: white;
     }
