@@ -84,7 +84,7 @@ p {
     background-color: wheat;
     border-radius: 20px;
     width: 60%;
-    margin: 0 auto;
+    margin-left: 4px;
     text-align: center;
     border: none;
     overflow: scroll;
@@ -128,8 +128,9 @@ p {
     color: black;
 }
 
-@media (max-width: 768px) {
-    .column {
-        flex: 100%;
+@media (min-width: 480px) {
+    .table {
+        width: 200px; float: left;
+        margin-left: 216px;
     }
-}
+}   
