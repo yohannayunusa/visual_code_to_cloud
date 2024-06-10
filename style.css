@@ -128,9 +128,10 @@ p {
     color: black;
 }
 
-@media (min-width: 480px) {
+@media (min-width: 580px) {
     .table {
-        width: 200px; float: left;
+        width: 200px; 
+        float: left;
         margin-left: 216px;
         margin-right: 216px;
     }
