@@ -87,7 +87,7 @@ p {
     margin-left: 200px;
     text-align: center;
     border: none;
-    overflow: auto;
+    overflow: scroll;
 }
 
 #Pupil {
