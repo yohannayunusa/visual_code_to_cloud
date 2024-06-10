@@ -126,3 +126,19 @@ p {
     background-color: rgb(194, 129, 8);
     color: black;
 }
+
+@media (max-width: 500px) {
+    body {
+        color: aqua;
+    }
+}
+@media (orientation: portrait) {
+    .table {
+        color: blue;
+    }
+}
+@media (orientation: landscape), (max-width: 500px) {
+    .table {
+        background-color: white;
+    }
+}
