@@ -84,10 +84,11 @@ p {
     background-color: wheat;
     border-radius: 20px;
     width: 60%;
-    margin-left: 100px;
+    margin: 0 auto;
     text-align: center;
     border: none;
     overflow: scroll;
+    box-sizing: border-box;
 }
 
 #Pupil {
@@ -127,18 +128,8 @@ p {
     color: black;
 }
 
-@media (max-width: 500px) {
-    body {
-        color: aqua;
-    }
-}
-@media (orientation: portrait) {
-    .table {
-        color: blue;
-    }
-}
-@media (orientation: landscape), (max-width: 500px) {
-    .table {
-        background-color: white;
+@media (max-width: 768px) {
+    .column {
+        flex: 100%;
     }
 }
