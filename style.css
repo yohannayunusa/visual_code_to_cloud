@@ -132,5 +132,6 @@ p {
     .table {
         width: 200px; float: left;
         margin-left: 216px;
+        margin-right: 216px;
     }
 }   
