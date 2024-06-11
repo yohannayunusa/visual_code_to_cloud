@@ -1,6 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     background-color: darkslateblue;
     font-family: 'Times New Roman', Times, serif;
+    display: grid;
 }
 
 .signup-box {
@@ -89,6 +96,11 @@ p {
     border: none;
     overflow: scroll;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    place-self: center;
+    padding: 10px;
 }
 
 #Pupil {
@@ -109,6 +121,7 @@ p {
     border: 1px solid #ddd;
     padding: 8px;
     color: black;
+    font-weight: 700;
 }
 
 #Pupil tr:nth-child(even) {
@@ -128,11 +141,37 @@ p {
     color: black;
 }
 
-@media (min-width: 580px) {
+@media (max-width: 580px) {
+    body {
+        background-color: white;
+    }
+
     .table {
-        width: 200px; 
+        width: 450px; 
         float: left;
-        margin-left: 216px;
-        margin-right: 216px;
+        place-self: center;
+        /* margin-left: 216px; */
+        /* margin-right: 216px; */
+        margin-top: 5vh;
+    }
+
+    h1 {
+        text-align: center;
+        padding-top: 15px;
+        font-size: 24px;
+    }
+
+    p {
+        text-align: center;
+        padding: 20px;
+        font-size: 16px;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+
+    #Pupil th {
+
     }
 }   
